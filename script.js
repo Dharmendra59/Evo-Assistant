@@ -106,7 +106,10 @@ function takeCommand(message) {
     } else if (message.includes('whatsapp. papa') || message.includes('whatsapp, papa.') || message.includes('whatsapp papa')) {
         speak("Sending Message to Papaji")
         window.open("https://api.whatsapp.com/send/?phone=+918765049289&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
-    } else if (message.includes('whatsapp, kartik') || message.includes('whatsapp, kartik.') || message.includes('whatsapp kartik')) {
+    } else if (message.includes('whatsapp, kartik') || message.includes('whatsapp, kartik.') || message.includes('whatsapp karthik')) {
+        speak("Sending Message to kartikey")
+        window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
+    } else if (message.includes('whatsapp, kammo') || message.includes('kammo') || message.includes('whatsapp kammo')) {
         speak("Sending Message to kartikey")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
     } else if (message.includes('open whatsapp')) {
