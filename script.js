@@ -110,7 +110,7 @@ function takeCommand(message) {
         speak("Sending Message to kartikey")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
     } else if (message.includes('whatsapp, kammo') || message.includes('kammo') || message.includes('whatsapp kammo')) {
-        speak("Sending Message to kartikey")
+        speak("Sending Message to kammo")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
     } else if (message.includes('open whatsapp')) {
         speak("opening whatsapp")
