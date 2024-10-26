@@ -10,7 +10,7 @@ function speak(text) {
     text_speak.volume = 1
     text_speak.lang = "en-IN"
     window.speechSynthesis.speak(text_speak)
-    console.log(text_speak)
+
 }
 
 
@@ -28,9 +28,9 @@ function wishMe() {
     }
 
 }
-// window.addEventListener('load', () => {
-//     wishMe()
-// })
+window.addEventListener('load', () => {
+    wishMe()
+})
 
 
 let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
