@@ -115,6 +115,9 @@ function takeCommand(message) {
     } else if (message.includes('Call.') || message.includes('call') || message.includes('call,kammo')) {
         speak("Calling to kammo")
         window.open("tel:+919151542141")
+    } else if (message.includes('Call. bittu') || message.includes('call bittu') || message.includes('call bittu')) {
+        speak("Calling to Bitto")
+        window.open("tel:+919910389798")
     } else if (message.includes('open whatsapp')) {
         speak("opening whatsapp")
         window.open("https://api.whatsapp.com/send/?phone=+917380757082&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
