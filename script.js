@@ -112,7 +112,7 @@ function takeCommand(message) {
     } else if (message.includes('whatsapp, kammo') || message.includes('whatsapp kammo') || message.includes('whatsapp kammo')) {
         speak("Sending Message to kammo")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
-    } else if (message.includes('Call.') || message.includes('call') || message.includes('call,kammo')) {
+    } else if (message.includes('Call.') || message.includes('call kammo') || message.includes('call,kammo')) {
         speak("Calling to kammo")
         window.open("tel:+919151542141")
     } else if (message.includes('Call. bittu') || message.includes('call bittu') || message.includes('call bittu')) {
