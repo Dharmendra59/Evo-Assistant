@@ -109,9 +109,12 @@ function takeCommand(message) {
     } else if (message.includes('whatsapp, kartik') || message.includes('whatsapp, kartik.') || message.includes('whatsapp karthik')) {
         speak("Sending Message to kartikey")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
-    } else if (message.includes('whatsapp, kammo') || message.includes('kammo') || message.includes('whatsapp kammo')) {
+    } else if (message.includes('whatsapp, kammo') || message.includes('whatsapp kammo') || message.includes('whatsapp kammo')) {
         speak("Sending Message to kammo")
         window.open("https://api.whatsapp.com/send/?phone=+919151542141&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
+    } else if (message.includes('Call.') || message.includes('call') || message.includes('call,kammo')) {
+        speak("Calling to kammo")
+        window.open("tel:+919151542141")
     } else if (message.includes('open whatsapp')) {
         speak("opening whatsapp")
         window.open("https://api.whatsapp.com/send/?phone=+917380757082&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
