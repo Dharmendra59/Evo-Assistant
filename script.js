@@ -28,9 +28,9 @@ function wishMe() {
     }
 
 }
-window.addEventListener('load', () => {
-    wishMe()
-})
+// window.addEventListener('load', () => {
+//     wishMe()
+// })
 
 
 let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
@@ -118,6 +118,18 @@ function takeCommand(message) {
     } else if (message.includes('Call. bittu') || message.includes('call bittu') || message.includes('call bittu')) {
         speak("Calling to Bitto")
         window.open("tel:+919910389798")
+    } else if (message.includes('Call. bhai') || message.includes('call bhai') || message.includes('call bhai')) {
+        speak("Calling to Bhaiji")
+        window.open("tel:+919559604443")
+    } else if (message.includes('Call. papa') || message.includes('call papa') || message.includes('call papa')) {
+        speak("Calling to papaji")
+        window.open("tel:+918765049289")
+    } else if (message.includes('Call. sarpanch') || message.includes('call sarpanch') || message.includes('call sarpanch')) {
+        speak("Calling to Sarpanchji")
+        window.open("tel:+918756766041")
+    } else if (message.includes('Call. madhudi') || message.includes('call madhu') || message.includes('call madhudi') || message.includes('call badidi')) {
+        speak("Calling to Madhudidiji")
+        window.open("tel:+919235044732")
     } else if (message.includes('open whatsapp')) {
         speak("opening whatsapp")
         window.open("https://api.whatsapp.com/send/?phone=+917380757082&text=This+Massage+from+EVO-AI.Contact+Us&type=phone_number&app_absent=0")
